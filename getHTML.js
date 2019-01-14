@@ -32,5 +32,5 @@ const requestOptions = {
   path: '/http-examples/step2.html'
 };
 
-getAndPrintHTML(requestOptions, printHTML);
+module.exports = {getAndPrintHTML};
 
